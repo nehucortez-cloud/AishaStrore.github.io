@@ -620,19 +620,19 @@ nav.desk-nav a.nav-sale::after{background:var(--bordo)}
 /* ── FOOTER ── */
 footer{
   background:var(--negro);color:var(--blanco);
-  padding:70px 40px 0;
+  padding:40px 40px 0;
 }
 .footer-grid{
   max-width:1440px;margin:0 auto;
   display:grid;grid-template-columns:1.6fr 1fr 1fr 1.6fr;
-  gap:56px;padding-bottom:56px;
+  gap:32px;padding-bottom:32px;
   border-bottom:1px solid rgba(255,255,255,0.08);
 }
-.foot-brand .logo{color:var(--blanco);display:block;margin-bottom:16px}
+.foot-brand .logo{color:var(--blanco);display:block;margin-bottom:12px}
 .foot-brand p{
-  font-size:0.82rem;line-height:1.80;
+  font-size:0.78rem;line-height:1.6;
   color:rgba(255,255,255,0.45);font-weight:300;
-  max-width:240px;margin-bottom:28px;
+  max-width:240px;margin-bottom:16px;
 }
 .social-row{display:flex;gap:10px}
 .soc-btn{
@@ -651,9 +651,9 @@ footer{
 .foot-col h4{
   font-size:0.66rem;font-weight:600;
   letter-spacing:0.22em;text-transform:uppercase;
-  color:rgba(255,255,255,0.35);margin-bottom:22px;
+  color:rgba(255,255,255,0.35);margin-bottom:12px;
 }
-.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:8px}
 .foot-col ul a{
   color:rgba(255,255,255,0.60);text-decoration:none;
   font-size:0.84rem;font-weight:300;
@@ -662,8 +662,8 @@ footer{
 .foot-col ul a:hover{color:var(--rosa-pastel)}
 
 .foot-nl-desc{
-  font-size:0.80rem;color:rgba(255,255,255,0.45);
-  line-height:1.70;font-weight:300;margin-bottom:18px;
+  font-size:0.75rem;color:rgba(255,255,255,0.45);
+  line-height:1.5;font-weight:300;margin-bottom:12px;
 }
 .nl-wrap{
   display:flex;
@@ -696,7 +696,7 @@ footer{
 .footer-bottom{
   max-width:1440px;margin:0 auto;
   display:flex;align-items:center;justify-content:space-between;
-  padding:20px 0 28px;flex-wrap:wrap;gap:12px;
+  padding:16px 0 20px;flex-wrap:wrap;gap:12px;
 }
 .footer-bottom p{font-size:0.72rem;color:rgba(255,255,255,0.28)}
 .pay-chips{display:flex;gap:7px}
@@ -802,8 +802,8 @@ footer{
   .cats-wrap{padding:56px 20px}
   .giftcard-wrap{padding:56px 20px}
   .cats-grid{grid-template-columns:1fr;max-width:320px;margin:40px auto 0}
-  .footer-grid{grid-template-columns:1fr;gap:36px}
-  .footer-bottom{flex-direction:column;align-items:flex-start}
+  .footer-grid{grid-template-columns:1fr;gap:24px}
+  .footer-bottom{flex-direction:column;align-items:flex-start;padding:12px 0 16px}
   .trust-strip{padding:20px}
   .trust-inner{grid-template-columns:1fr;gap:12px}
   .trust-item{border-bottom:1px solid var(--gris-medio)}
