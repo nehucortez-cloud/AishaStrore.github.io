@@ -6,7 +6,7 @@ const PRODUCTS = [
     price: 10000,
     priceOld: null,
     desc: '<strong>Talle:</strong> Único<br><strong>Detalles:</strong> Camiseta confeccionada en Morley, súper cómoda y adaptable a tu cuerpo.',
-    imgs: ['img/camiseta MORLEY.jpeg']
+    imgs: ['img/camiseta morley.jpeg']
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const PRODUCTS = [
     price: 7000,
     priceOld: null,
     desc: '<strong>Talle:</strong> Único<br><strong>Detalles:</strong> Camiseta con frunce.<br>⚠️ <strong>¡AGOTADAS!</strong>',
-    imgs: ['img/Camiseta con frunce.jpeg']
+    imgs: ['img/camiseta con frunce.jpeg']
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const PRODUCTS = [
     price: 7000,
     priceOld: null,
     desc: '<strong>Talle:</strong> Único (cede hasta un talle 3)<br><strong>Colores:</strong> Disponible en Negro y Bordó<br><strong>Detalles:</strong> Body manga corta con escote cuadrado.',
-    imgs: ['img/Body escote cuadrado.jpeg']
+    imgs: ['img/body escote cuadrado.jpeg']
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const PRODUCTS = [
     price: 7000,
     priceOld: null,
     desc: '<strong>Talle:</strong> Único<br><strong>Colores:</strong> Marrón<br><strong>Detalles:</strong> Camiseta corta escote cuadrado.',
-    imgs: ['img/Camiseta corta escote cuadrado.jpeg']
+    imgs: ['img/camiseta corta escote cuadrado.jpeg']
   }
 ];
 
